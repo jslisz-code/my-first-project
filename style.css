@@ -101,10 +101,10 @@ section:nth-child(even) {
 
 /* NAVIGATION BAR */
 
-.nav {
+nav {
   height: 100px;
   width: 100%;
-  max-width: 100px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -170,7 +170,7 @@ section:nth-child(even) {
   overflow: hidden;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 1.16);
   margin-bottom: 28px;
-  animation: animate-profile-pic 200ms 800s backwards;
+  animation: animate-profile-pic 800ms 200ms backwards;
 }
 
 @keyframes animate-profile-pic {
