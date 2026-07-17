@@ -161,6 +161,7 @@ nav {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+  padding: 25px;
 }
 
 .about-me__picture--mask {
